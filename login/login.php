@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Login - Part privada - QuantumSoft Technologies</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <div class="row" style="margin-top: 100px;">
-      <div class="col-md-4 col-md-offset-4">
-        <h2 class="text-center">Inici de sessió</h2>
+    <div class="row justify-content-center" style="margin-top: 100px;">
+      <div class="col-md-4">
+        <h2 class="text-center mb-4">Inici de sessió</h2>
         <form action="login_process.php" method="POST">
           <div class="form-group">
             <label for="username">Usuari</label>
