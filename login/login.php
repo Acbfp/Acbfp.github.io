@@ -11,12 +11,12 @@
       <div class="col-md-4">
         <h2 class="text-center mb-4">Inici de sessió</h2>
         <form action="login_process.php" method="POST">
-          <div class="form-group">
-            <label for="username">Usuari</label>
+          <div class="mb-3">
+            <label for="username" class="form-label">Usuari</label>
             <input type="text" class="form-control" id="username" name="username" required>
           </div>
-          <div class="form-group">
-            <label for="password">Contrasenya</label>
+          <div class="mb-3">
+            <label for="password" class="form-label">Contrasenya</label>
             <input type="password" class="form-control" id="password" name="password" required>
           </div>
           <button type="submit" class="btn btn-primary btn-block">Entrar</button>
